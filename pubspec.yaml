@@ -82,6 +82,12 @@ flutter:
     - assets/images/vet.png
     - assets/images/tips.png
     - assets/images/paw.png
+    - assets/images/circle1.png
+    - assets/images/circle2.png
+    - assets/images/q1.png
+    - assets/images/q2.png
+    - assets/images/bi_send.png
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\aa0bbf9af285533ec514602826a76d46\\transformed\\core-1.2.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\5c049c2c3af6c1859ccb48afb8805aa4\\transformed\\jetified-play-services-base-17.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\5c049c2c3af6c1859ccb48afb8805aa4\\transformed\\jetified-play-services-base-17.2.1\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\5c049c2c3af6c1859ccb48afb8805aa4\\transformed\\jetified-play-services-base-17.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\5c049c2c3af6c1859ccb48afb8805aa4\\transformed\\jetified-play-services-base-17.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\aa0bbf9af285533ec514602826a76d46\\transformed\\core-1.2.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\5c049c2c3af6c1859ccb48afb8805aa4\\transformed\\jetified-play-services-base-17.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\aa0bbf9af285533ec514602826a76d46\\transformed\\core-1.2.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\5c049c2c3af6c1859ccb48afb8805aa4\\transformed\\jetified-play-services-base-17.2.1\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\aa0bbf9af285533ec514602826a76d46\\transformed\\core-1.2.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\5c049c2c3af6c1859ccb48afb8805aa4\\transformed\\jetified-play-services-base-17.2.1\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\geolocator\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\aa0bbf9af285533ec514602826a76d46\\transformed\\core-1.2.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    }
+]

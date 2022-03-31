@@ -1,0 +1,441 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.helloworld"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:4:1-62
+11-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:4:18-60
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:5:1-75
+12-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:5:18-72
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:6:1-75
+13-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:6:18-72
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:7:1-77
+14-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:7:18-74
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\4131126bcf014117b9020f6864a776d6\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\4131126bcf014117b9020f6864a776d6\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\4131126bcf014117b9020f6864a776d6\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+19
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.android.installreferrer:installreferrer:1.0] C:\Users\hp g4\.gradle\caches\transforms-3\f28bd49fe623a9402427815a3312f1e7\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+20-->[com.android.installreferrer:installreferrer:1.0] C:\Users\hp g4\.gradle\caches\transforms-3\f28bd49fe623a9402427815a3312f1e7\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23     calls FlutterMain.startInitialization(this); in its onCreate method.
+24     In most cases you can leave this as-is, but you if you want to provide
+25     additional functionality it is fine to subclass or reimplement
+26     FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:13:1-58:15
+29        android:name="io.flutter.app.FlutterApplication"
+29-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:14:5-53
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] C:\Users\hp g4\.gradle\caches\transforms-3\b43e82c1ee307ed3c54ffbbee8db4b2c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:16:5-39
+32        android:label="Paw Finder"
+32-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:15:5-31
+33        android:supportsRtl="true" >
+33-->[com.facebook.android:facebook-login:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\236c0b167674da344176de8f8fe9f10b\transformed\jetified-facebook-login-12.2.0\AndroidManifest.xml:28:18-44
+34        <meta-data
+34-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:17:5-18:66
+35            android:name="com.google.android.geo.API_KEY"
+35-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:17:16-61
+36            android:value="AIzaSyAY9Gpi1btUo8y9CITV3DVSFmXJ65hIb9o" />
+36-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:18:9-64
+37
+38        <activity
+38-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:19:5-30:16
+39            android:name="com.example.helloworld.MainActivity"
+39-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:20:9-37
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:23:9-159
+41            android:hardwareAccelerated="true"
+41-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:24:9-43
+42            android:launchMode="singleTop"
+42-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:21:9-39
+43            android:theme="@style/LaunchTheme"
+43-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:22:9-43
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:25:9-51
+45            <intent-filter>
+45-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:26:9-29:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:27:13-64
+46-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:27:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:28:13-72
+48-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:28:23-70
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:31:5-32:50
+53            android:name="com.facebook.sdk.ApplicationId"
+53-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:31:16-61
+54            android:value="@string/facebook_app_id" />
+54-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:32:9-48
+55
+56        <activity
+56-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:34:5-37:44
+57            android:name="com.facebook.FacebookActivity"
+57-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:34:15-59
+58            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+58-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:35:9-105
+59            android:label="@string/app_name"
+59-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:37:9-41
+60            android:theme="@style/com_facebook_activity_theme" />
+60-->[com.facebook.android:facebook-common:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\1f6eee1abcb3b1d0d97c09a164362187\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:33:13-63
+61        <activity
+61-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:38:5-47:16
+62            android:name="com.facebook.CustomTabActivity"
+62-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:39:9-54
+63            android:exported="true" >
+63-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:40:9-32
+64            <intent-filter>
+64-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:41:9-46:25
+65                <action android:name="android.intent.action.VIEW" />
+65-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:13-65
+65-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:21-62
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:13-72
+67-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:23-69
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:13-74
+68-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:23-71
+69
+70                <data android:scheme="@string/fb_login_protocol_scheme" />
+70-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:13-71
+70-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:19-68
+71            </intent-filter>
+72            <intent-filter>
+72-->[com.facebook.android:facebook-common:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\1f6eee1abcb3b1d0d97c09a164362187\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:39:13-48:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:13-65
+73-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:21-62
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:13-72
+75-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:23-69
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:13-74
+76-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:23-71
+77
+78                <data
+78-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:13-71
+79                    android:host="cct.com.example.helloworld"
+80                    android:scheme="fbconnect" />
+80-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:19-68
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:49:5-52:67
+84            android:name="com.yalantis.ucrop.UCropActivity"
+84-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:50:9-56
+85            android:screenOrientation="portrait"
+85-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:51:9-45
+86            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+86-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:52:9-65
+87        <!--
+88         Don't delete the meta-data below.
+89         This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+90        -->
+91        <meta-data
+91-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:55:5-57:29
+92            android:name="flutterEmbedding"
+92-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:56:9-40
+93            android:value="2" />
+93-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:57:9-26
+94
+95        <service
+95-->[:cloud_firestore] C:\Users\hp g4\Desktop\GDSC_Stray\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[:cloud_firestore] C:\Users\hp g4\Desktop\GDSC_Stray\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\b0711ccace481ed8890fc5566081c1d5\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+99            <meta-data
+99-->[:cloud_firestore] C:\Users\hp g4\Desktop\GDSC_Stray\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+100-->[:cloud_firestore] C:\Users\hp g4\Desktop\GDSC_Stray\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:cloud_firestore] C:\Users\hp g4\Desktop\GDSC_Stray\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+102            <meta-data
+102-->[:firebase_auth] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+103-->[:firebase_auth] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_auth] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+105            <meta-data
+105-->[:firebase_storage] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+106-->[:firebase_storage] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_storage] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+108            <meta-data
+108-->[:firebase_core] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+109-->[:firebase_core] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:firebase_core] C:\Users\hp g4\Desktop\GDSC_Stray\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+112                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\d41cbb42298710182d1c1bc90da66b10\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+115                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+115-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\d41cbb42298710182d1c1bc90da66b10\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\d41cbb42298710182d1c1bc90da66b10\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\fa2ed79660f6b082f0a7d0bc24f946d3\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+118                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+118-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\fa2ed79660f6b082f0a7d0bc24f946d3\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\fa2ed79660f6b082f0a7d0bc24f946d3\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+120        </service>
+121
+122        <provider
+122-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+123            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+123-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+124            android:authorities="com.example.helloworld.flutter.image_provider"
+124-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+125            android:exported="false"
+125-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+126            android:grantUriPermissions="true" >
+126-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+127            <meta-data
+127-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+128                android:name="android.support.FILE_PROVIDER_PATHS"
+128-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+129                android:resource="@xml/flutter_image_picker_file_paths" />
+129-->[:image_picker] C:\Users\hp g4\Desktop\GDSC_Stray\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+130        </provider>
+131
+132        <activity
+132-->[:url_launcher_android] C:\Users\hp g4\Desktop\GDSC_Stray\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+133            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+133-->[:url_launcher_android] C:\Users\hp g4\Desktop\GDSC_Stray\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+134            android:exported="false"
+134-->[:url_launcher_android] C:\Users\hp g4\Desktop\GDSC_Stray\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+135            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+135-->[:url_launcher_android] C:\Users\hp g4\Desktop\GDSC_Stray\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+136        <activity android:name="com.facebook.CustomTabMainActivity" />
+136-->[com.facebook.android:facebook-common:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\1f6eee1abcb3b1d0d97c09a164362187\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:34:9-71
+136-->[com.facebook.android:facebook-common:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\1f6eee1abcb3b1d0d97c09a164362187\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:34:19-68
+137        <!--
+138         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+139         with the application context. This config is merged in with the host app's manifest,
+140         but there can only be one provider with the same authority activated at any given
+141         point; so if the end user has two or more different apps that use Facebook SDK, only the
+142         first one will be able to use the provider. To work around this problem, we use the
+143         following placeholder in the authority to identify each host application as if it was
+144         a completely different provider.
+145        -->
+146        <provider
+146-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:39:9-42:40
+147            android:name="com.facebook.internal.FacebookInitProvider"
+147-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:40:13-70
+148            android:authorities="com.example.helloworld.FacebookInitProvider"
+148-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:41:13-72
+149            android:exported="false" />
+149-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:42:13-37
+150
+151        <receiver
+151-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:44:9-50:20
+152            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+152-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:45:13-86
+153            android:exported="false" >
+153-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:46:13-37
+154            <intent-filter>
+154-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:47:13-49:29
+155                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+155-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:48:17-95
+155-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:48:25-92
+156            </intent-filter>
+157        </receiver>
+158        <receiver
+158-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:51:9-57:20
+159            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+159-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:52:13-118
+160            android:exported="false" >
+160-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:53:13-37
+161            <intent-filter>
+161-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:54:13-56:29
+162                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+162-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:55:17-103
+162-->[com.facebook.android:facebook-core:12.2.0] C:\Users\hp g4\.gradle\caches\transforms-3\127f02860c7ebaa8be2d756f8fc82b8d\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:55:25-100
+163            </intent-filter>
+164        </receiver>
+165
+166        <activity
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+167            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+167-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+168            android:excludeFromRecents="true"
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+169            android:exported="true"
+169-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+170            android:launchMode="singleTask"
+170-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+171-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+172            <intent-filter>
+172-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+173                <action android:name="android.intent.action.VIEW" />
+173-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:13-65
+173-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:21-62
+174
+175                <category android:name="android.intent.category.DEFAULT" />
+175-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:13-72
+175-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:23-69
+176                <category android:name="android.intent.category.BROWSABLE" />
+176-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:13-74
+176-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:23-71
+177
+178                <data
+178-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:13-71
+179                    android:host="firebase.auth"
+180                    android:path="/"
+181                    android:scheme="genericidp" />
+181-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:19-68
+182            </intent-filter>
+183        </activity>
+184        <activity
+184-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+185            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+185-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+186            android:excludeFromRecents="true"
+186-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+187            android:exported="true"
+187-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+188            android:launchMode="singleTask"
+188-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+189-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+190            <intent-filter>
+190-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+191                <action android:name="android.intent.action.VIEW" />
+191-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:13-65
+191-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:42:21-62
+192
+193                <category android:name="android.intent.category.DEFAULT" />
+193-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:13-72
+193-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:23-69
+194                <category android:name="android.intent.category.BROWSABLE" />
+194-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:13-74
+194-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:44:23-71
+195
+196                <data
+196-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:13-71
+197                    android:host="firebase.auth"
+198                    android:path="/"
+199                    android:scheme="recaptcha" />
+199-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:45:19-68
+200            </intent-filter>
+201        </activity>
+202
+203        <service
+203-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+204            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+204-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+205            android:enabled="true"
+205-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+206            android:exported="false" >
+206-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+207            <intent-filter>
+207-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+208                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+208-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+208-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\2314e6ad7fb3b1e81840f9b82f25189e\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+209
+210                <category android:name="android.intent.category.DEFAULT" />
+210-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:13-72
+210-->C:\Users\hp g4\Desktop\GDSC_Stray\android\app\src\main\AndroidManifest.xml:43:23-69
+211            </intent-filter>
+212        </service>
+213
+214        <provider
+214-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\b0711ccace481ed8890fc5566081c1d5\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\b0711ccace481ed8890fc5566081c1d5\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+216            android:authorities="com.example.helloworld.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\b0711ccace481ed8890fc5566081c1d5\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\b0711ccace481ed8890fc5566081c1d5\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+218            android:exported="false"
+218-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\b0711ccace481ed8890fc5566081c1d5\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+219            android:initOrder="100" />
+219-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\b0711ccace481ed8890fc5566081c1d5\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+220
+221        <activity
+221-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+222            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+222-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+223            android:excludeFromRecents="true"
+223-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+225-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+226        <!--
+227            Service handling Google Sign-In user revocation. For apps that do not integrate with
+228            Google Sign-In, this service will never be started.
+229        -->
+230        <service
+230-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+231            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+231-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+232            android:exported="true"
+232-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+233            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+233-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+234            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+234-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\ac833f4f1bf47f6030a3d2539e2f5e90\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+235        <uses-library
+235-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\4131126bcf014117b9020f6864a776d6\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+236            android:name="org.apache.http.legacy"
+236-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\4131126bcf014117b9020f6864a776d6\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+237            android:required="false" />
+237-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\4131126bcf014117b9020f6864a776d6\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+238
+239        <activity
+239-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\c8bfdb37467512a0d41c7d5eda892629\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+240            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+240-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\c8bfdb37467512a0d41c7d5eda892629\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+241            android:exported="false"
+241-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\c8bfdb37467512a0d41c7d5eda892629\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+242-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp g4\.gradle\caches\transforms-3\c8bfdb37467512a0d41c7d5eda892629\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+243
+244        <meta-data
+244-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\7f7963f38b35d810a77b17f6a86edcb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+245            android:name="com.google.android.gms.version"
+245-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\7f7963f38b35d810a77b17f6a86edcb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+246            android:value="@integer/google_play_services_version" />
+246-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hp g4\.gradle\caches\transforms-3\7f7963f38b35d810a77b17f6a86edcb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+247    </application>
+248
+249</manifest>

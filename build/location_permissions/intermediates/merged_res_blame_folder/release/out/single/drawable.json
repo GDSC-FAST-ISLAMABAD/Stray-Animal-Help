@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\location_permissions\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\location_permissions\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\location_permissions\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\location_permissions\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]

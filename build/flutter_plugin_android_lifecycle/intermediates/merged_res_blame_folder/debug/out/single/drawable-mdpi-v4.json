@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    }
+]

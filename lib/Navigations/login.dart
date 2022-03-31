@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:helloworld/Navigations/afterlogin.dart';
+import 'package:helloworld/Navigations/forgotpass.dart';
 import 'package:helloworld/Navigations/signup.dart';
 import 'package:helloworld/Navigations/signuplogin.dart';
 import 'package:helloworld/constants.dart';
@@ -211,7 +212,10 @@ class _loginscreenState extends State<loginscreen> {
                       color: Colors.black,
                       fontSize: 15,
                       fontWeight: FontWeight.bold)),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => forgotpassclass()));
+              },
             ),
             Row(children: <Widget>[
               Expanded(

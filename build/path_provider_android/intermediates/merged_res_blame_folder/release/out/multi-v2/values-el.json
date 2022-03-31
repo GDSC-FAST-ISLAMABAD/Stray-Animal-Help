@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\path_provider_android\\intermediates\\res\\merged\\release\\values-el\\values-el.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\hp g4\\Desktop\\GDSC_Stray\\build\\path_provider_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-el\\values-el.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp g4\\.gradle\\caches\\transforms-3\\20995c061ca6c04c2b8ec1b7e34880b3\\transformed\\core-1.1.0\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
